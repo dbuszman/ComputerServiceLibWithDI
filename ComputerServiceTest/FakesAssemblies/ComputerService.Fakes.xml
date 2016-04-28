@@ -1,0 +1,590 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ComputerService.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ComputerService.Fakes.ShimClient">
+            <summary>Shim type of ComputerService.Client</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimClient.#ctor(ComputerService.Client)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClient.ConstructorInt32StringStringStringString">
+            <summary>Sets the shim of Client.Client(Int32 idClient, String firstname, String surname, String telephone, String pesel)</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimClientManager">
+            <summary>Shim type of ComputerService.ClientManager</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimClientManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimClientManager.#ctor(ComputerService.ClientManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClientManager.AddClientClient">
+            <summary>Sets the shim of ClientManager.AddClient(Client client)</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimClientManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClientManager.AllInstances.AddClientClient">
+            <summary>Sets the shim of ClientManager.AddClient(Client client)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClientManager.AllInstances.GetAllClients">
+            <summary>Sets the shim of ClientManager.GetAllClients()</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClientManager.AllInstances.GetClientString">
+            <summary>Sets the shim of ClientManager.GetClient(String pesel)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClientManager.AllInstances.PrepareCorrectIdClientClientIChecker">
+            <summary>Sets the shim of ClientManager.PrepareCorrectIdClient(Client client, IChecker idChecker)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClientManager.AllInstances.UpdateClientTelephoneClientString">
+            <summary>Sets the shim of ClientManager.UpdateClientTelephone(Client client, String newTelephone)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimClientManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimClientManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClientManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimClientManager.Bind(ComputerService.IClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClientManager.Constructor">
+            <summary>Sets the shim of ClientManager.ClientManager()</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClientManager.GetAllClients">
+            <summary>Sets the shim of ClientManager.GetAllClients()</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClientManager.GetClientString">
+            <summary>Sets the shim of ClientManager.GetClient(String pesel)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClientManager.PrepareCorrectIdClientClientIChecker">
+            <summary>Sets the shim of ClientManager.PrepareCorrectIdClient(Client client, IChecker idChecker)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimClientManager.UpdateClientTelephoneClientString">
+            <summary>Sets the shim of ClientManager.UpdateClientTelephone(Client client, String newTelephone)</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimCurrentTimeGetter">
+            <summary>Shim type of ComputerService.CurrentTimeGetter</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimCurrentTimeGetter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimCurrentTimeGetter.#ctor(ComputerService.CurrentTimeGetter)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimCurrentTimeGetter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimCurrentTimeGetter.AllInstances.GetCurrentTime">
+            <summary>Sets the shim of CurrentTimeGetter.GetCurrentTime()</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimCurrentTimeGetter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimCurrentTimeGetter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimCurrentTimeGetter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimCurrentTimeGetter.Bind(ComputerService.ICurrentTimeGetter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimCurrentTimeGetter.Constructor">
+            <summary>Sets the shim of CurrentTimeGetter.CurrentTimeGetter()</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimCurrentTimeGetter.GetCurrentTime">
+            <summary>Sets the shim of CurrentTimeGetter.GetCurrentTime()</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimDevice">
+            <summary>Shim type of ComputerService.Device</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimDevice.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimDevice.#ctor(ComputerService.Device)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimDevice.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimDevice.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimDevice.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDevice.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDevice.ConstructorInt32StringStringDateTimeBoolean">
+            <summary>Sets the shim of Device.Device(Int32 applicationNumber, String name, String type, DateTime registerDate, Boolean state)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDevice.ConstructorStringStringDateTimeBoolean">
+            <summary>Sets the shim of Device.Device(String name, String type, DateTime registerDate, Boolean state)</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimDeviceManager">
+            <summary>Shim type of ComputerService.DeviceManager</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimDeviceManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimDeviceManager.#ctor(ComputerService.DeviceManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.AddDeviceDevice">
+            <summary>Sets the shim of DeviceManager.AddDevice(Device device)</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimDeviceManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.AllInstances.AddDeviceDevice">
+            <summary>Sets the shim of DeviceManager.AddDevice(Device device)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.AllInstances.ChangeDeviceStatusDevice">
+            <summary>Sets the shim of DeviceManager.ChangeDeviceStatus(Device device)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.AllInstances.CheckDeviceStatusDevice">
+            <summary>Sets the shim of DeviceManager.CheckDeviceStatus(Device device)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.AllInstances.GetDeviceByApplicationNumberInt32">
+            <summary>Sets the shim of DeviceManager.GetDeviceByApplicationNumber(Int32 applicationNumber)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.AllInstances.SetClientToDeviceIClientDeviceString">
+            <summary>Sets the shim of DeviceManager.SetClientToDevice(IClient client, Device device, String clientsPesel)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.AllInstances.SetNextApplicationNumberDevice">
+            <summary>Sets the shim of DeviceManager.SetNextApplicationNumber(Device device)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.AllInstances.SetRepairDateDeviceICurrentTimeGetter">
+            <summary>Sets the shim of DeviceManager.SetRepairDate(Device device, ICurrentTimeGetter currentTime)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.AllInstances.SetTechnicianToDeviceITechnicianDeviceInt32">
+            <summary>Sets the shim of DeviceManager.SetTechnicianToDevice(ITechnician technician, Device device, Int32 techniciansId)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimDeviceManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimDeviceManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.ChangeDeviceStatusDevice">
+            <summary>Sets the shim of DeviceManager.ChangeDeviceStatus(Device device)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.CheckDeviceStatusDevice">
+            <summary>Sets the shim of DeviceManager.CheckDeviceStatus(Device device)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.Constructor">
+            <summary>Sets the shim of DeviceManager.DeviceManager()</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.GetDeviceByApplicationNumberInt32">
+            <summary>Sets the shim of DeviceManager.GetDeviceByApplicationNumber(Int32 applicationNumber)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.SetClientToDeviceIClientDeviceString">
+            <summary>Sets the shim of DeviceManager.SetClientToDevice(IClient client, Device device, String clientsPesel)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.SetNextApplicationNumberDevice">
+            <summary>Sets the shim of DeviceManager.SetNextApplicationNumber(Device device)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.SetRepairDateDeviceICurrentTimeGetter">
+            <summary>Sets the shim of DeviceManager.SetRepairDate(Device device, ICurrentTimeGetter currentTime)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimDeviceManager.SetTechnicianToDeviceITechnicianDeviceInt32">
+            <summary>Sets the shim of DeviceManager.SetTechnicianToDevice(ITechnician technician, Device device, Int32 techniciansId)</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimIdChecker">
+            <summary>Shim type of ComputerService.IdChecker</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimIdChecker.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimIdChecker.#ctor(ComputerService.IdChecker)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimIdChecker.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimIdChecker.AllInstances.CheckClientIdExistanceIClientInt32">
+            <summary>Sets the shim of IdChecker.CheckClientIdExistance(IClient client, Int32 idClient)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimIdChecker.AllInstances.CheckTechnicianIdExistanceITechnicianInt32">
+            <summary>Sets the shim of IdChecker.CheckTechnicianIdExistance(ITechnician technician, Int32 idTechnician)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimIdChecker.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimIdChecker.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimIdChecker.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimIdChecker.Bind(ComputerService.IChecker)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimIdChecker.CheckClientIdExistanceIClientInt32">
+            <summary>Sets the shim of IdChecker.CheckClientIdExistance(IClient client, Int32 idClient)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimIdChecker.CheckTechnicianIdExistanceITechnicianInt32">
+            <summary>Sets the shim of IdChecker.CheckTechnicianIdExistance(ITechnician technician, Int32 idTechnician)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimIdChecker.Constructor">
+            <summary>Sets the shim of IdChecker.IdChecker()</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimTechnician">
+            <summary>Shim type of ComputerService.Technician</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimTechnician.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimTechnician.#ctor(ComputerService.Technician)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimTechnician.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimTechnician.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimTechnician.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnician.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnician.ConstructorInt32StringStringInt32">
+            <summary>Sets the shim of Technician.Technician(Int32 idTechnician, String firstname, String surname, Int32 salary)</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimTechnicianManager">
+            <summary>Shim type of ComputerService.TechnicianManager</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimTechnicianManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimTechnicianManager.#ctor(ComputerService.TechnicianManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnicianManager.AddTechnicianTechnician">
+            <summary>Sets the shim of TechnicianManager.AddTechnician(Technician technician)</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.ShimTechnicianManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnicianManager.AllInstances.AddTechnicianTechnician">
+            <summary>Sets the shim of TechnicianManager.AddTechnician(Technician technician)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnicianManager.AllInstances.GetAllTechnicians">
+            <summary>Sets the shim of TechnicianManager.GetAllTechnicians()</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnicianManager.AllInstances.GetTechnicianByIdInt32">
+            <summary>Sets the shim of TechnicianManager.GetTechnicianById(Int32 idTechnician)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnicianManager.AllInstances.PrepareCorrectIdTechnicianTechnicianIChecker">
+            <summary>Sets the shim of TechnicianManager.PrepareCorrectIdTechnician(Technician technician, IChecker idChecker)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnicianManager.AllInstances.UpdateTechnicianSalaryTechnicianInt32">
+            <summary>Sets the shim of TechnicianManager.UpdateTechnicianSalary(Technician technician, Int32 newSalary)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimTechnicianManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimTechnicianManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnicianManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.ShimTechnicianManager.Bind(ComputerService.ITechnician)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnicianManager.Constructor">
+            <summary>Sets the shim of TechnicianManager.TechnicianManager()</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnicianManager.GetAllTechnicians">
+            <summary>Sets the shim of TechnicianManager.GetAllTechnicians()</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnicianManager.GetTechnicianByIdInt32">
+            <summary>Sets the shim of TechnicianManager.GetTechnicianById(Int32 idTechnician)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnicianManager.PrepareCorrectIdTechnicianTechnicianIChecker">
+            <summary>Sets the shim of TechnicianManager.PrepareCorrectIdTechnician(Technician technician, IChecker idChecker)</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.ShimTechnicianManager.UpdateTechnicianSalaryTechnicianInt32">
+            <summary>Sets the shim of TechnicianManager.UpdateTechnicianSalary(Technician technician, Int32 newSalary)</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.StubClient">
+            <summary>Stub type of ComputerService.Client</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubClient.#ctor(System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubClient.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubClient.InitializeStub">
+            <summary>Initializes a new instance of type StubClient</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubClient.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubClient.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.StubClientManager">
+            <summary>Stub type of ComputerService.ClientManager</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubClientManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubClientManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubClientManager.InitializeStub">
+            <summary>Initializes a new instance of type StubClientManager</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubClientManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubClientManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.StubCurrentTimeGetter">
+            <summary>Stub type of ComputerService.CurrentTimeGetter</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubCurrentTimeGetter.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubCurrentTimeGetter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubCurrentTimeGetter.InitializeStub">
+            <summary>Initializes a new instance of type StubCurrentTimeGetter</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubCurrentTimeGetter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubCurrentTimeGetter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.StubDevice">
+            <summary>Stub type of ComputerService.Device</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubDevice.#ctor(System.String,System.String,System.DateTime,System.Boolean)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubDevice.#ctor(System.Int32,System.String,System.String,System.DateTime,System.Boolean)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubDevice.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubDevice.InitializeStub">
+            <summary>Initializes a new instance of type StubDevice</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubDevice.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubDevice.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.StubDeviceManager">
+            <summary>Stub type of ComputerService.DeviceManager</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubDeviceManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubDeviceManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubDeviceManager.InitializeStub">
+            <summary>Initializes a new instance of type StubDeviceManager</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubDeviceManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubDeviceManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.StubIChecker">
+            <summary>Stub type of ComputerService.IChecker</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubIChecker.#ctor">
+            <summary>Initializes a new instance of type StubIChecker</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubIChecker.CheckClientIdExistanceIClientInt32">
+            <summary>Sets the stub of IChecker.CheckClientIdExistance(IClient client, Int32 idClient)</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubIChecker.CheckTechnicianIdExistanceITechnicianInt32">
+            <summary>Sets the stub of IChecker.CheckTechnicianIdExistance(ITechnician technician, Int32 idTechnician)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubIChecker.ComputerService#IChecker#CheckClientIdExistance(ComputerService.IClient,System.Int32)">
+            <summary>Sets the stub of IChecker.CheckClientIdExistance(IClient client, Int32 idClient)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubIChecker.ComputerService#IChecker#CheckTechnicianIdExistance(ComputerService.ITechnician,System.Int32)">
+            <summary>Sets the stub of IChecker.CheckTechnicianIdExistance(ITechnician technician, Int32 idTechnician)</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.StubIClient">
+            <summary>Stub type of ComputerService.IClient</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubIClient.#ctor">
+            <summary>Initializes a new instance of type StubIClient</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubIClient.AddClientClient">
+            <summary>Sets the stub of IClient.AddClient(Client client)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubIClient.ComputerService#IClient#AddClient(ComputerService.Client)">
+            <summary>Sets the stub of IClient.AddClient(Client client)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubIClient.ComputerService#IClient#GetAllClients">
+            <summary>Sets the stub of IClient.GetAllClients()</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubIClient.ComputerService#IClient#GetClient(System.String)">
+            <summary>Sets the stub of IClient.GetClient(String pesel)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubIClient.ComputerService#IClient#PrepareCorrectIdClient(ComputerService.Client,ComputerService.IChecker)">
+            <summary>Sets the stub of IClient.PrepareCorrectIdClient(Client client, IChecker idChecker)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubIClient.ComputerService#IClient#UpdateClientTelephone(ComputerService.Client,System.String)">
+            <summary>Sets the stub of IClient.UpdateClientTelephone(Client client, String newTelephone)</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubIClient.GetAllClients">
+            <summary>Sets the stub of IClient.GetAllClients()</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubIClient.GetClientString">
+            <summary>Sets the stub of IClient.GetClient(String pesel)</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubIClient.PrepareCorrectIdClientClientIChecker">
+            <summary>Sets the stub of IClient.PrepareCorrectIdClient(Client client, IChecker idChecker)</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubIClient.UpdateClientTelephoneClientString">
+            <summary>Sets the stub of IClient.UpdateClientTelephone(Client client, String newTelephone)</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.StubICurrentTimeGetter">
+            <summary>Stub type of ComputerService.ICurrentTimeGetter</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubICurrentTimeGetter.#ctor">
+            <summary>Initializes a new instance of type StubICurrentTimeGetter</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubICurrentTimeGetter.ComputerService#ICurrentTimeGetter#GetCurrentTime">
+            <summary>Sets the stub of ICurrentTimeGetter.GetCurrentTime()</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubICurrentTimeGetter.GetCurrentTime">
+            <summary>Sets the stub of ICurrentTimeGetter.GetCurrentTime()</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.StubITechnician">
+            <summary>Stub type of ComputerService.ITechnician</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubITechnician.#ctor">
+            <summary>Initializes a new instance of type StubITechnician</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubITechnician.AddTechnicianTechnician">
+            <summary>Sets the stub of ITechnician.AddTechnician(Technician technician)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubITechnician.ComputerService#ITechnician#AddTechnician(ComputerService.Technician)">
+            <summary>Sets the stub of ITechnician.AddTechnician(Technician technician)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubITechnician.ComputerService#ITechnician#GetAllTechnicians">
+            <summary>Sets the stub of ITechnician.GetAllTechnicians()</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubITechnician.ComputerService#ITechnician#GetTechnicianById(System.Int32)">
+            <summary>Sets the stub of ITechnician.GetTechnicianById(Int32 IdTechnician)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubITechnician.ComputerService#ITechnician#PrepareCorrectIdTechnician(ComputerService.Technician,ComputerService.IChecker)">
+            <summary>Sets the stub of ITechnician.PrepareCorrectIdTechnician(Technician technician, IChecker idChecker)</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubITechnician.ComputerService#ITechnician#UpdateTechnicianSalary(ComputerService.Technician,System.Int32)">
+            <summary>Sets the stub of ITechnician.UpdateTechnicianSalary(Technician technician, Int32 newSalary)</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubITechnician.GetAllTechnicians">
+            <summary>Sets the stub of ITechnician.GetAllTechnicians()</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubITechnician.GetTechnicianByIdInt32">
+            <summary>Sets the stub of ITechnician.GetTechnicianById(Int32 IdTechnician)</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubITechnician.PrepareCorrectIdTechnicianTechnicianIChecker">
+            <summary>Sets the stub of ITechnician.PrepareCorrectIdTechnician(Technician technician, IChecker idChecker)</summary>
+        </member>
+        <member name="F:ComputerService.Fakes.StubITechnician.UpdateTechnicianSalaryTechnicianInt32">
+            <summary>Sets the stub of ITechnician.UpdateTechnicianSalary(Technician technician, Int32 newSalary)</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.StubIdChecker">
+            <summary>Stub type of ComputerService.IdChecker</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubIdChecker.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubIdChecker.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubIdChecker.InitializeStub">
+            <summary>Initializes a new instance of type StubIdChecker</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubIdChecker.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubIdChecker.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.StubTechnician">
+            <summary>Stub type of ComputerService.Technician</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubTechnician.#ctor(System.Int32,System.String,System.String,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubTechnician.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubTechnician.InitializeStub">
+            <summary>Initializes a new instance of type StubTechnician</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubTechnician.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubTechnician.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ComputerService.Fakes.StubTechnicianManager">
+            <summary>Stub type of ComputerService.TechnicianManager</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubTechnicianManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubTechnicianManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ComputerService.Fakes.StubTechnicianManager.InitializeStub">
+            <summary>Initializes a new instance of type StubTechnicianManager</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubTechnicianManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ComputerService.Fakes.StubTechnicianManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,13 @@
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate stub for ComputerService.IDevice: type is not visible to exported or assembly(ComputerService.Fakes).
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate shim for ComputerService.IdChecker+<>c__DisplayClass0_0: type is not supported because of internal limitations.
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate shim for ComputerService.IdChecker+<>c__DisplayClass1_0: type is not supported because of internal limitations.
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate shim for ComputerService.IChecker: type is an interface.
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate shim for ComputerService.ICurrentTimeGetter: type is an interface.
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate shim for ComputerService.ClientManager+<>c__DisplayClass3_0: type is not supported because of internal limitations.
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate shim for ComputerService.ClientManager+<>c__DisplayClass5_0: type is not supported because of internal limitations.
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate shim for ComputerService.DeviceManager+<>c__DisplayClass3_0: type is not supported because of internal limitations.
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate shim for ComputerService.IClient: type is an interface.
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate shim for ComputerService.IDevice: type is an interface.
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate shim for ComputerService.ITechnician: type is an interface.
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate shim for ComputerService.TechnicianManager+<>c__DisplayClass3_0: type is not supported because of internal limitations.
+D:\ComputerService\ComputerServiceTest\Fakes\ComputerService.fakes : warning : Cannot generate shim for ComputerService.TechnicianManager+<>c__DisplayClass5_0: type is not supported because of internal limitations.
